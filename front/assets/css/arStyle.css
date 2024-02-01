@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 991px){
 .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul {
 	flex-direction: column !important;
@@ -6,4 +7,17 @@
 
 .navbar-nav{
 	flex-direction: row-reverse !important;
+}
+.about-area{
+	direction: rtl;
+
+}
+.about-area-service{
+direction: rtl;
+text-align: justify;
+
+}
+.projects-slider .projects-item .content h3,p{
+	direction: rtl;
+	text-align: justify;
 }
