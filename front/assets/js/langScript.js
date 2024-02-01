@@ -44,7 +44,7 @@ function toggleArabicStylesheet(lang) {
         newLink.id = 'styles-link';
         newLink.rel = 'stylesheet';
 
-        newLink.href = '../../front/assets/css/enStyle.css'; // Path to Arabic stylesheet
+        newLink.href = '../../front/assets/css/arStyle.css'; // Path to Arabic stylesheet
         head.appendChild(newLink);
     }
 }
