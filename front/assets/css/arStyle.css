@@ -21,3 +21,38 @@ text-align: justify;
 	direction: rtl;
 	text-align: justify;
 }
+.main-banner-area-head{
+	flex-direction: row-reverse;
+	padding-right: 10px;
+
+}
+.banner-social-buttons{
+	position: absolute;
+left: -10px;
+right: auto;
+}
+.main-banner-content{
+	text-align: right;
+}
+
+@media only screen and (max-width: 767px){
+	
+	.banner-social-buttons {
+		position: relative; 
+		margin: 0;
+	}
+}
+.approvals-content .text{
+	min-width: 50px
+}
+.main-banner-area-head{
+	justify-content: flex-start;
+padding: 0 5%;
+}
+
+.approvals-content{
+	justify-content: flex-end;
+}
+.contact-area{
+	flex-direction: row-reverse;
+}
