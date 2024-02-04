@@ -5371,6 +5371,10 @@ Go Top CSS
   background-size: contain; 
   background-position: center;
 }
+.main-banner-area-head{
+padding: 0 5%;
+
+}
 
 
 .form_main {
