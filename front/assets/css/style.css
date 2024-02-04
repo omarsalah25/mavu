@@ -62,12 +62,13 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&family=Montserrat:wght@400;500;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
 }
 
@@ -92,7 +93,7 @@ p {
   line-height: 1.8;
   color: #606060;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
 }
 
@@ -146,7 +147,7 @@ img {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #111111;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 500;
 }
 
@@ -297,7 +298,7 @@ Navbar Area CSS
   color: #111111;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   text-transform: capitalize;
   padding-left: 0;
   padding-right: 0;
@@ -605,7 +606,7 @@ Navbar Area CSS
 .main-navbar .navbar .others-options .option-item .info p {
   font-weight: 500;
   margin-bottom: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .main-navbar .navbar .others-options .option-item .info p a {
@@ -1120,7 +1121,7 @@ About Area CSS
   margin-bottom: 0;
   padding-left: 120px;
   line-height: 1.4;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .about-content span {
@@ -1197,7 +1198,7 @@ About Area CSS
 .about-wrap .about-shape .text span {
   color: #111111;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 /*================================================
@@ -1464,7 +1465,7 @@ Services Area CSS
   color: #e73c3e;
   display: inline-block;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .services-item:hover {
@@ -1558,7 +1559,7 @@ Deserve Area CSS
 
 .rate-form label {
   color: #ffffff;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
   text-transform: capitalize;
   font-size: 16px;
@@ -1848,7 +1849,7 @@ Clients Area CSS
 .clients-slider .clients-item .clients-info-text p {
   font-size: 24px;
   color: #111111;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
   margin-bottom: 0;
   line-height: 1.5;
@@ -1992,7 +1993,7 @@ Blog Area CSS
 .blog-item .content span {
   font-size: 16px;
   color: #e73c3e;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .blog-item .content h3 {
@@ -2006,7 +2007,7 @@ Blog Area CSS
 
 .blog-item .content .blog-btn {
   font-size: 16px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   color: #111111;
   display: inline-block;
   font-weight: 500;
@@ -2351,7 +2352,7 @@ Best Services Area CSS
 .services-list-tab .tabs_item .list li {
   color: #606060;
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   list-style-type: none;
   margin-bottom: 10px;
   position: relative;
@@ -2405,7 +2406,7 @@ Best Services Area CSS
   transition: 0.5s;
   width: 100%;
   text-align: center;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .best-services-slider .tabs-item i {
@@ -2501,7 +2502,7 @@ Best Services Area CSS
 .best-services-slider .services-tabs-item .list li {
   color: #606060;
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   list-style-type: none;
   margin-bottom: 10px;
   position: relative;
@@ -2678,7 +2679,7 @@ Fun Facts Area CSS
 }
 
 .single-fun-fact h3 .odometer {
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .single-fun-fact p {
@@ -2689,7 +2690,7 @@ Fun Facts Area CSS
   line-height: 1;
   font-weight: 500;
   font-size: 24px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 /*================================================
@@ -2730,7 +2731,7 @@ Value Area CSS
   max-width: 50%;
   margin-top: 25px;
   font-size: 20px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 500;
   padding-left: 10px;
   padding-right: 10px;
@@ -2819,7 +2820,7 @@ Page Title Area CSS
 .page-title-content h2 {
   margin-bottom: 0;
   color: #111111;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 48px;
 }
 
@@ -2834,7 +2835,7 @@ Page Title Area CSS
   color: #606060;
   display: inline-block;
   position: relative;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 500;
   font-size: 17px;
   margin-left: 10px;
@@ -2900,7 +2901,7 @@ FAQ Area CSS
 .faq-area .section-title b {
   font-size: 18px;
   color: #606060;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
 }
 
@@ -2931,7 +2932,7 @@ FAQ Area CSS
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2979,7 +2980,7 @@ FAQ Area CSS
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 700;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .faq-list-tab .tab_content .tabs_item .faq-accordion .accordion .accordion-title i {
@@ -3118,7 +3119,7 @@ Loan Calculator Area CSS
   background-color: #ffffff;
   color: #111111;
   border-radius: 5px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-right: 15px;
@@ -3135,7 +3136,7 @@ Loan Calculator Area CSS
   background-color: #ffffff;
   color: #111111;
   border-radius: 5px;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3160,7 +3161,7 @@ Table Area CSS
   border: none;
   background-color: #f9fafb;
   color: #111111;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -3204,7 +3205,7 @@ Apply Area CSS
 
 .apply-form .form-group label {
   color: #606060 !important;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
 }
 
@@ -3391,7 +3392,7 @@ Sign In CSS
 
 .sign-in-form .sign-in-title h3 {
   font-size: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
   margin-bottom: 8px;
 }
 
@@ -3492,7 +3493,7 @@ Sign Up CSS
 
 .signup-form h3 {
   font-size: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -3708,7 +3709,7 @@ Contact Area CSS
 .contact-form .form-group label {
   font-size: 16px;
   color: #606060;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 500;
 }
 
@@ -3923,7 +3924,7 @@ Sidebar Widget Area CSS
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .widget-area .widget_categories ul li:last-child {
@@ -3964,7 +3965,7 @@ Sidebar Widget Area CSS
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .widget-area .widget_hours ul li:last-child {
@@ -4138,7 +4139,7 @@ Sidebar Widget Area CSS
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .widget-area .widget_archives ul li:last-child {
@@ -4170,13 +4171,13 @@ Services Details Area CSS
 }
 
 .services-details-desc .content p {
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
 }
 
 .services-details-desc .content .text {
   margin-bottom: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
 }
 
@@ -4200,7 +4201,7 @@ Services Details Area CSS
 }
 
 .services-details-features .content p {
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -4244,7 +4245,7 @@ Services Details Area CSS
 }
 
 .services-details-others p {
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
 }
 
@@ -4258,7 +4259,7 @@ Services Details Area CSS
 }
 
 .services-details-list .content p {
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -4303,7 +4304,7 @@ Funding Area CSS
   font-size: 18px;
   color: #111111;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .funding-content .funding-list {
@@ -4317,7 +4318,7 @@ Funding Area CSS
   color: #606060;
   margin-bottom: 10px;
   position: relative;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .funding-content .funding-list li:last-child {
@@ -4426,7 +4427,7 @@ Funding Form Area CSS
 
 .funding-form .form-group label {
   color: #606060 !important;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
 }
 
@@ -4521,7 +4522,7 @@ Funding Form Area CSS
   padding-left: 4px;
   color: #606060;
   font-weight: 400;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .buy-checkbox-btn .cbx span:last-child a {
@@ -4592,7 +4593,7 @@ Loan Area CSS
 .loan-image .loan-shape .text span {
   color: #111111;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 18px;
 }
 
@@ -4719,7 +4720,7 @@ Overview Area CSS
   text-align: center;
   border-radius: 50px;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   position: relative;
   z-index: 1;
 }
@@ -4727,7 +4728,7 @@ Overview Area CSS
 .overview-item .number strong {
   font-size: 70px;
   color: #fad8d8;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
   line-height: 0;
   position: absolute;
@@ -4851,7 +4852,7 @@ Inquiry Area CSS
 
 .inquiry-form .form-group label {
   color: #606060 !important;
-  font-family: "Rubik", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 400;
 }
 
