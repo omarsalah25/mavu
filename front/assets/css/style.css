@@ -5498,3 +5498,8 @@ padding: 0 5%;
   padding: 8px 15px;
   border-radius: 20px;
 }
+@media only screen and (max-width: 768px) {
+  .trading{
+    flex-direction: column-reverse;
+  }
+}
