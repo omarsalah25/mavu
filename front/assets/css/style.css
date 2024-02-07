@@ -166,7 +166,7 @@ Default CSS
   overflow: hidden;
   z-index: 1;
   background-color: #e73c3e;
-  color: #ffffff;
+  color: #ffffff !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -5519,3 +5519,4 @@ padding: 0 5%;
 .owl-nav.disabled{
   display: block !important;
 }
+#more {display: none;}
