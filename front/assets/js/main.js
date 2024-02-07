@@ -375,14 +375,14 @@ jQuery(function ($) {
 }(jQuery));
 
 function myFunction() {
-	const userPreferredLanguage = localStorage.getItem('language') || 'en';
+	const currentLang = localStorage.getItem('language') || 'en';
 	var dots = document.getElementById("dots");
 	var moreText = document.getElementById("more");
 	var btnText = document.getElementById("myBtn");
 
 	if (dots.style.display === "none") {
 		dots.style.display = "block";
-		if (userPreferredLanguage === 'en') {
+		if (currentLang === 'en') {
 			btnText.innerHTML = "Read more";
 		}
 		else {
@@ -392,7 +392,7 @@ function myFunction() {
 		moreText.style.display = "none";
 	} else {
 		dots.style.display = "none";
-		if (userPreferredLanguage === 'en') {
+		if (currentLang === 'en') {
 			btnText.innerHTML = "Read less";
 		}
 		else {
