@@ -388,6 +388,10 @@
   .footer-area.bg-top .single-footer-widget {
     margin-top: 0;
   }
+  .single-footer-widget{
+    align-items: center !important;
+
+  }
   .faq-list-tab .tabs-list li {
     -webkit-box-flex: unset;
         -ms-flex: unset;

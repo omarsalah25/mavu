@@ -5174,6 +5174,7 @@ Footer Area CSS
 }
 
 .footer-area.bg-top .single-footer-widget {
+  align-items: start !important;
   margin-top: 80px;
 }
 
