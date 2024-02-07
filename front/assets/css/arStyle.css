@@ -87,3 +87,12 @@ padding: 0 5%;
 .contact-area{
 	flex-direction: row-reverse;
 }
+.single-footer-widget .info-contact{
+	padding-right: 30px;
+
+	text-align: end;
+}
+.single-footer-widget .info-contact i{
+left: auto;
+right: 0;
+}
