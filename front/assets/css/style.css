@@ -5268,7 +5268,7 @@ Footer Area CSS
   font-size: 20px;
   color: #ffffff;
   font-weight: bold;
-  top: 5px;
+  top: -5px;
 }
 
 .single-footer-widget .info-contact span {
@@ -5368,9 +5368,10 @@ Go Top CSS
 .owl-carousel .owl-item img{
   width: max-content !important;
 }
-.projects-slider .projects-item img {  min-height: 100px;
+.projects-slider .projects-item img { 
+   min-height: 70px;
 
-  max-height: 100px;
+  max-height: 70px;
 }
 .projects-slider .projects-item {
   display: flex;

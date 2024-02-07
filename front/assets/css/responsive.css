@@ -1183,10 +1183,10 @@
   .rate-item .rate-month li {
     margin-right: 75px;
   }
-  .projects-slider.owl-theme .owl-nav [class*=owl-] {
+  .gallery-slider.owl-theme .owl-nav [class*=owl-],.projects-slider.owl-theme .owl-nav [class*=owl-] {
     left: 0;
   }
-  .projects-slider.owl-theme .owl-nav [class*=owl-].owl-next {
+  .gallery-slider.owl-theme .owl-nav [class*=owl-].owl-next,.projects-slider.owl-theme .owl-nav [class*=owl-].owl-next {
     right: 0;
   }
   .solution-item .content h3 {
