@@ -77,6 +77,37 @@ jQuery(function ($) {
 			}
 		}
 	});
+	$('.gallery-slider').owlCarousel({
+		loop: true,
+		nav: true,
+		dots: false,
+		smartSpeed: 500,
+		margin: 30,
+		autoplayHoverPause: true,
+		autoplay: true,
+		navText: [
+			"<i class='flaticon-left-arrow'></i>",
+			"<i class='flaticon-right-arrow'></i>"
+		],
+		responsive: {
+			0: {
+				items: 1
+			},
+			576: {
+				items: 1
+			},
+			768: {
+				items: 2
+			},
+			1024: {
+				items: 3
+			},
+			1200: {
+				items: 3
+			}
+		}
+	});
+
 
 	// Partner Slider
 	$('.partner-slider').owlCarousel({

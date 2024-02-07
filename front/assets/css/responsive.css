@@ -116,8 +116,9 @@
     top: 0;
   }
   .experience p {
-    font-size: 16px;
-    padding-left: 0;
+    display: inline;
+    font-size: 26px;
+    padding: 0;
   }
   .about-content {
     margin-top: 50px;
@@ -186,6 +187,12 @@
     left: 0;
   }
   .projects-slider.owl-theme .owl-nav [class*=owl-].owl-next {
+    right: 0;
+  }
+  .gallery-slider.owl-theme .owl-nav [class*=owl-] {
+    left: 0;
+  }
+  .gallery-slider.owl-theme .owl-nav [class*=owl-].owl-next {
     right: 0;
   }
   .clients-item {

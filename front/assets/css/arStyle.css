@@ -49,6 +49,9 @@ right: auto;
 		position: relative; 
 		margin: 0;
 	}
+	.experience p{
+		padding: 0;
+	}
 }
 .approvals-content .text{
 	min-width: 50px
@@ -57,10 +60,30 @@ right: auto;
 	justify-content: flex-start;
 padding: 0 5%;
 }
-
-.approvals-content{
-	justify-content: flex-end;
+.about-content{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+.about-list{
+	padding: 0;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about-content .about-list li i{
+	left: auto;
+	right: 0;
+	padding-left: 0;
+
+}
+.about-content span{
+	padding-right: 30px;
+}
+
+/* .approvals-content{
+	justify-content: flex-end;
+} */
 .contact-area{
 	flex-direction: row-reverse;
 }

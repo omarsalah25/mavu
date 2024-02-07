@@ -992,6 +992,7 @@ Approvals Area CSS
 
 .approvals-content {
   display: flex;
+  justify-content: center;
   padding: 35px 20px 35px 20px;
 }
 
@@ -1080,6 +1081,7 @@ About Area CSS
 
 .about-image img {
   border-radius: 0;
+  width: 55%;
 }
 
 .about-image img:nth-child(2) {
@@ -1120,6 +1122,16 @@ About Area CSS
   font-weight: 400;
   margin-bottom: 0;
   padding-left: 120px;
+  line-height: 1.4;
+  font-family: "Cairo", sans-serif;
+}
+.experience span {
+  font-size: 28px;
+  color: #111111;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-right: 120px;
+
   line-height: 1.4;
   font-family: "Cairo", sans-serif;
 }
@@ -1675,7 +1687,7 @@ Projects Area CSS
   margin-bottom: 0;
 }
 
-.projects-slider.owl-theme .owl-nav [class*=owl-] {
+.gallery-slider.owl-theme .owl-nav [class*=owl-], .projects-slider.owl-theme .owl-nav [class*=owl-] {
   position: absolute;
   left: -60px;
   top: 40%;
@@ -1697,17 +1709,17 @@ Projects Area CSS
   border-radius: 50px;
 }
 
-.projects-slider.owl-theme .owl-nav [class*=owl-].owl-next {
+.gallery-slider.owl-theme .owl-nav [class*=owl-].owl-next,.projects-slider.owl-theme .owl-nav [class*=owl-].owl-next {
   left: auto;
   right: -60px;
 }
 
-.projects-slider.owl-theme .owl-nav [class*=owl-]:hover {
+.gallery-slider.owl-theme .owl-nav [class*=owl-]:hover ,.projects-slider.owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffffff;
   background-color: #e73c3e;
 }
 
-.projects-slider.owl-theme .owl-nav {
+.gallery-slider.owl-theme .owl-nav, .projects-slider.owl-theme .owl-nav {
   margin-top: 0;
 }
 
@@ -5240,6 +5252,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .info-contact {
+  /* text-align: justify; */
   position: relative;
   padding-left: 40px;
   margin-bottom: 20px;
@@ -5502,4 +5515,7 @@ padding: 0 5%;
   .trading{
     flex-direction: column-reverse;
   }
+}
+.owl-nav.disabled{
+  display: block !important;
 }
