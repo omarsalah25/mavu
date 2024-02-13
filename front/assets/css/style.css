@@ -5517,8 +5517,19 @@ padding: 0 5%;
   .trading{
     flex-direction: column-reverse;
   }
+  .vec-about-img{
+    position: initial !important;
+    top: auto !important;
+    padding-top: 15px;
+  }
 }
 .owl-nav.disabled{
   display: block !important;
 }
 #more {display: none;}
+
+.vec-about-img{
+  position: relative;
+  top: -220px;
+
+}
