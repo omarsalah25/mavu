@@ -14,12 +14,12 @@
 }
 .about-area-service{
 direction: rtl;
-text-align: start;
+text-align: right;
 
 }
 .projects-slider .projects-item .content h3,p{
 	direction: rtl;
-	text-align: justify;
+	text-align: right;
 }
 .main-banner-area-head{
 	flex-direction: row-reverse;
