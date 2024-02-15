@@ -151,22 +151,22 @@
 <div class="container ">
     <div class="row contact-area">
         <div class="col-lg-6 d-flex justify-content-center ">
-            <form class="form_main" action="">
+            <form class="form_main" action="/sendemail.php" method="post">
                 <p class="heading" data-i18n="Contact-us"></p>
                 <div class="inputContainer">
                 <label for="name" class="d-block" data-i18n="Name"></label>
-                <input placeholder="" id="name" class="inputField" type="text">
+                <input placeholder="" name="username" id="name" class="inputField" type="text">
                 
                 </div>
                 
             <div class="inputContainer">
                 <label for="email" class="d-block" data-i18n="E-mail"></label>
-                <input placeholder="" id="email" class="inputField" type="text">
+                <input placeholder=""  name="email" id="email" class="inputField" type="text">
             </div>
      
             <div class="inputContainer">
                 <label for="message" class="d-block" data-i18n="Message"></label>
-                <textarea placeholder=""  id="message" class="inputField" type="text" style="min-height:200px ;"></textarea>
+                <textarea placeholder="" name="message" id="message" class="inputField" type="text" style="min-height:200px ;"></textarea>
             </div>
                           
                        
